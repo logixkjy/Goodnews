@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="FcH-Wq-xkq">
+    <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4kt-3W-4hQ">
+            <objects>
+                <viewController storyboardIdentifier="mainView" id="FcH-Wq-xkq" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eFd-Xl-LHk"/>
+                        <viewControllerLayoutGuide type="bottom" id="HKj-zs-smy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G10-O2-5mb">
+                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="status_bar_1536.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Cue-z5-tuA">
+                                <rect key="frame" x="0.0" y="0.0" width="820" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ge9-X8-uiZ">
+                                <rect key="frame" x="0.0" y="1135" width="820" height="45"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ExM-TZ-f93">
+                                        <rect key="frame" x="15" y="8" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="bar_btn_home">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted" image="bar_btn_home_press"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2e-fG-25M">
+                                        <rect key="frame" x="68" y="8" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="bar_btn_pre">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted" image="bar_btn_pre_press"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OWq-CW-Xfu">
+                                        <rect key="frame" x="119" y="7" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="bar_btn_next">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted" image="bar_btn_next_press"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igV-Wc-gOh">
+                                        <rect key="frame" x="155" y="8" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="bar_btn_refresh">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted" image="bar_btn_refresh_press"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kif-nS-Cpa">
+                                        <rect key="frame" x="191" y="8" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="bar_btn_more">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted" image="bar_btn_more_press"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMf-1R-f3D">
+                                        <rect key="frame" x="234" y="7" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="bar_btn_top">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted" image="bar_btn_top_press"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93122661113739014" green="0.93119871616363525" blue="0.93121451139450073" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="m_homeButton" destination="ExM-TZ-f93" id="h39-ID-Syx"/>
+                        <outlet property="m_moreButton" destination="Kif-nS-Cpa" id="ytH-mu-BWt"/>
+                        <outlet property="m_moveTopButton" destination="gMf-1R-f3D" id="KoB-Jh-t4J"/>
+                        <outlet property="m_nextButton" destination="OWq-CW-Xfu" id="BJ1-Um-unO"/>
+                        <outlet property="m_prevButton" destination="U2e-fG-25M" id="rAL-Vm-rBx"/>
+                        <outlet property="m_reflashButton" destination="igV-Wc-gOh" id="16j-p0-Shr"/>
+                        <outlet property="m_statusBarImage" destination="Cue-z5-tuA" id="BOi-yW-uH5"/>
+                        <outlet property="m_toolBarView" destination="Ge9-X8-uiZ" id="LPp-mE-vrL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aZY-9C-uPy" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34" y="310"/>
+        </scene>
+        <!--Modal View Controller-->
+        <scene sceneID="6f9-fv-PJc">
+            <objects>
+                <viewController storyboardIdentifier="modalView" id="ktb-SN-z8F" customClass="ModalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wiX-Fu-bSH"/>
+                        <viewControllerLayoutGuide type="bottom" id="e9M-Wb-Aa0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Vd-uU-3uO">
+                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="status_bar_1536.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eDB-TE-BC9">
+                                <rect key="frame" x="0.0" y="0.0" width="820" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c9s-YD-1Th">
+                                <rect key="frame" x="0.0" y="1135" width="820" height="45"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8d-zR-ThZ">
+                                        <rect key="frame" x="8" y="7" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="bar_btn_pre">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted" image="bar_btn_pre_press"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSN-Rt-puH">
+                                        <rect key="frame" x="191" y="8" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="bar_btn_more">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted" image="bar_btn_more_press"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uA4-lj-FCO">
+                                        <rect key="frame" x="234" y="7" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="bar_btn_close">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted" image="bar_btn_close_press"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djR-Bp-4G9">
+                                        <rect key="frame" x="44" y="7" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="bar_btn_next">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted" image="bar_btn_next_press"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93122661113739014" green="0.93119871616363525" blue="0.93121451139450073" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="m_closeButton" destination="uA4-lj-FCO" id="8XN-1I-Ehy"/>
+                        <outlet property="m_moreButton" destination="RSN-Rt-puH" id="QeF-Sf-TU7"/>
+                        <outlet property="m_nextButton" destination="djR-Bp-4G9" id="PZp-IT-hhg"/>
+                        <outlet property="m_prevButton" destination="N8d-zR-ThZ" id="By2-0Q-EfI"/>
+                        <outlet property="m_statusBarImage" destination="eDB-TE-BC9" id="4jy-g3-uPJ"/>
+                        <outlet property="m_toolBarView" destination="c9s-YD-1Th" id="zX9-1I-4w0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MJS-8n-d8Z" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1016" y="323"/>
+        </scene>
+        <!--ModalPC View Controller-->
+        <scene sceneID="fUv-19-bWw">
+            <objects>
+                <viewController storyboardIdentifier="modalPCView" id="7Yf-Tj-oda" customClass="ModalPCViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j7E-ay-cXv"/>
+                        <viewControllerLayoutGuide type="bottom" id="kB9-bL-6Qh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iSj-86-pfW">
+                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="status_bar_1536.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="BJN-x6-vzL">
+                                <rect key="frame" x="0.0" y="0.0" width="820" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2ET-Ud-XXP">
+                                <rect key="frame" x="0.0" y="1135" width="820" height="45"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZi-co-A90">
+                                        <rect key="frame" x="8" y="7" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="bar_btn_pre">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted" image="bar_btn_pre_press"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O8v-fu-Ghu">
+                                        <rect key="frame" x="191" y="8" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="bar_btn_more">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted" image="bar_btn_more_press"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZL-6t-XMF">
+                                        <rect key="frame" x="234" y="7" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="bar_btn_close">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted" image="bar_btn_close_press"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9U-FN-qVn">
+                                        <rect key="frame" x="44" y="7" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="bar_btn_next">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <state key="highlighted" image="bar_btn_next_press"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93122661113739014" green="0.93119871616363525" blue="0.93121451139450073" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="m_closeButton" destination="rZL-6t-XMF" id="DOS-xk-RBr"/>
+                        <outlet property="m_moreButton" destination="O8v-fu-Ghu" id="eyW-e0-89d"/>
+                        <outlet property="m_nextButton" destination="c9U-FN-qVn" id="TpO-uQ-Ub2"/>
+                        <outlet property="m_prevButton" destination="RZi-co-A90" id="aJM-hX-JHr"/>
+                        <outlet property="m_statusBarImage" destination="BJN-x6-vzL" id="ZUv-Hc-ANK"/>
+                        <outlet property="m_toolBarView" destination="2ET-Ud-XXP" id="0sG-p5-WVs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jub-eS-eMl" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1735.15625" y="322.8515625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bar_btn_close" width="32" height="32"/>
+        <image name="bar_btn_close_press" width="32" height="32"/>
+        <image name="bar_btn_home" width="32" height="32"/>
+        <image name="bar_btn_home_press" width="32" height="32"/>
+        <image name="bar_btn_more" width="32" height="32"/>
+        <image name="bar_btn_more_press" width="32" height="32"/>
+        <image name="bar_btn_next" width="32" height="32"/>
+        <image name="bar_btn_next_press" width="32" height="32"/>
+        <image name="bar_btn_pre" width="32" height="32"/>
+        <image name="bar_btn_pre_press" width="32" height="32"/>
+        <image name="bar_btn_refresh" width="32" height="32"/>
+        <image name="bar_btn_refresh_press" width="32" height="32"/>
+        <image name="bar_btn_top" width="32" height="32"/>
+        <image name="bar_btn_top_press" width="32" height="32"/>
+        <image name="status_bar_1536.jpg" width="1536" height="40"/>
+    </resources>
+</document>

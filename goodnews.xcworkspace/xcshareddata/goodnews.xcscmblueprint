@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "abad3d63-5600-2f49-8f6e-8c3f4b7e233f++2510",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "abad3d63-5600-2f49-8f6e-8c3f4b7e233f++2510" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "abad3d63-5600-2f49-8f6e-8c3f4b7e233f++2510" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "44C91CF4-DB64-4139-BF1B-559CEE960B8E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "abad3d63-5600-2f49-8f6e-8c3f4b7e233f++2510" : "goodnews\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "goodnews",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "goodnews.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/52.78.117.38\/svn\/ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "abad3d63-5600-2f49-8f6e-8c3f4b7e233f++2510"
+    }
+  ]
+}
